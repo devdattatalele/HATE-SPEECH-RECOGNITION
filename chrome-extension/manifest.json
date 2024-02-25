@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Hate Speech Detector",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
